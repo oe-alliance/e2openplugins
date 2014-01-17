@@ -4,6 +4,8 @@ DESCRIPTION = "Bitrate viewer"
 require openplugins-replace-pli.inc
 PR="r1"
 
+DEPENDS += "enigma2"
+
 require openplugins.inc
 
 inherit autotools
