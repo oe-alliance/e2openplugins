@@ -5,9 +5,13 @@ RDEPENDS_${PN} = "python-html"
 inherit gitpkgv
 PV = "git${SRCPV}"
 PKGV = "git${GITPKGV}"
-PR = "r0"
+PR = "r1"
 
 require openplugins-distutils.inc
+
+SRC_URI_append = " \
+    file://enigma2-plugin-extensions-foreca.patch \
+"
 
 FILES_${PN} += "/etc/enigma2/Foreca"
 CONFFILES_${PN} = "/etc/enigma2/Foreca/City.cfg /etc/enigma2/Foreca/Filter.cfg"
