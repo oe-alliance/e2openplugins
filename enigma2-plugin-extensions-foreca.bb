@@ -5,7 +5,7 @@ RDEPENDS_${PN} = "python-html"
 inherit gitpkgv
 PV = "git${SRCPV}"
 PKGV = "git${GITPKGV}"
-PR = "r1"
+PR = "r2"
 
 require openplugins-distutils.inc
 
