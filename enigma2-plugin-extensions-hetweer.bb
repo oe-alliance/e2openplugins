@@ -1,5 +1,5 @@
-MODULE = "Buienradar"
-DESCRIPTION = "Buienradar actuele situatie"
+MODULE = "HetWeer"
+DESCRIPTION = "HetWeer plugin"
 
 require openplugins-replace-pli.inc
 
