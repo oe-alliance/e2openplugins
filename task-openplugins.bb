@@ -1,5 +1,5 @@
 DESCRIPTION = "E2OpenPlugins Task"
-PR = "r3"
+PR = "r2"
 
 inherit task
 
