@@ -10,7 +10,7 @@ require openplugins.inc
 
 inherit autotools
 
-EXTRA_OECONF = "--with-boxtype=${MACHINE} \
+EXTRA_OECONF = " \
     STAGING_INCDIR=${STAGING_INCDIR} \
     STAGING_LIBDIR=${STAGING_LIBDIR}"
 
