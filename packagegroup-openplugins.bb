@@ -32,6 +32,7 @@ DEPENDS = " \
 	enigma2-plugin-extensions-snmpagent \
 	enigma2-plugin-extensions-streaminterface \
 	enigma2-plugin-extensions-systemtools \
+	enigma2-plugin-extensions-telekomsport \
 	enigma2-plugin-extensions-wakeonlan \
 	enigma2-plugin-extensions-xpower \
 	enigma2-plugin-systemplugins-autoshutdown \
