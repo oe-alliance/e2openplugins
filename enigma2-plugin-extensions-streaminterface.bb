@@ -1,7 +1,7 @@
 MODULE = "StreamInterface"
 DESCRIPTION = "Stream webinterface on port 40080"
 
-RDEPENDS_${PN} = "python-twisted-web"
+RDEPENDS_${PN} = "${PYTHON_PN}-twisted-web"
 
 require openplugins-replace-pli.inc
 
