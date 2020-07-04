@@ -4,7 +4,7 @@ DESCRIPTION = "Bitrate viewer"
 require openplugins-replace-pli.inc
 PR="r1"
 
-DEPENDS += "enigma2"
+DEPENDS += "enigma2 ${PYTHON_PN}"
 
 require openplugins.inc
 
