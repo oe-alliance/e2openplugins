@@ -1,7 +1,7 @@
 MODULE = "SnmpAgent"
 DESCRIPTION = "SNMP Agent"
 
-RDEPENDS_${PN} = "enigma2-plugin-extensions-bitrate twistedsnmp"
+RDEPENDS:${PN} = "enigma2-plugin-extensions-bitrate twistedsnmp"
 
 require openplugins-replace-pli.inc
 

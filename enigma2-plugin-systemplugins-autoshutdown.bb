@@ -12,6 +12,6 @@ require openplugins.inc
 
 inherit autotools
 
-FILES_${PN} = "/"
+FILES:${PN} = "/"
 
 require assume-gplv2.inc

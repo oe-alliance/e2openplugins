@@ -14,4 +14,4 @@ do_install() {
         chmod a+rX ${D}${PLUGINPATH}
 }
 
-FILES_${PN} = "${PLUGINPATH}"
+FILES:${PN} = "${PLUGINPATH}"
