@@ -1,7 +1,7 @@
 MODULE = "WakeOnLan"
 DESCRIPTION = "Send a WOL packet to devices"
 
-require openplugins-distutils.inc
+require openplugins-setuptools3.inc
 
 inherit gitpkgv
 PV = "1.0+git${SRCPV}"
