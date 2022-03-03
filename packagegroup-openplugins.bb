@@ -40,4 +40,4 @@ DEPENDS = " \
 	enigma2-plugin-systemplugins-crossepg \
 "
 
-LICENSE = "GPLv2"
+LICENSE = "GPL-2.0-only"
