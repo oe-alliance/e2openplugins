@@ -1,5 +1,5 @@
 DESCRIPTION = "E2OpenPlugins Task"
-PR = "r1"
+PR = "r2"
 
 inherit packagegroup
 
@@ -10,7 +10,6 @@ DEPENDS = " \
 	enigma2-plugin-extensions-autobackup \
 	enigma2-plugin-extensions-autobouquets \
 	enigma2-plugin-extensions-bitrate \
-	enigma2-plugin-extensions-buienradar \
 	enigma2-plugin-extensions-cacheflush \
 	enigma2-plugin-extensions-changerootpassword \
 	enigma2-plugin-extensions-foreca \
