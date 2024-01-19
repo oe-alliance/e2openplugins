@@ -1,7 +1,6 @@
 MODULE = "Satscan"
 DESCRIPTION = "Blind scan on DVB-S"
-RDEPENDS:${PN} = "virtual/blindscan-dvbs"
-RDEPENDS:${PN} += "python-subprocess"
+RDEPENDS:${PN} = "virtual-blindscan-dvbs"
 PACKAGE_ARCH = "${MACHINE_ARCH}"
 
 SRCREV = ""
