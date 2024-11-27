@@ -8,7 +8,7 @@ DEPENDS += "enigma2"
 
 require openplugins.inc
 
-inherit autotools gettext ${PYTHON_PN}native
+inherit autotools gettext python3native
 
 EXTRA_OECONF = " \
     STAGING_INCDIR=${STAGING_INCDIR} \

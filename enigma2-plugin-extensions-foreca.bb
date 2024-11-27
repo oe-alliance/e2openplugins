@@ -1,6 +1,6 @@
 MODULE = "Foreca"
 DESCRIPTION = "Weather forecast for the upcoming 10 days"
-RDEPENDS:${PN} = "${PYTHON_PN}-html"
+RDEPENDS:${PN} = "python3-html"
 
 inherit gitpkgv
 PV = "git${SRCPV}"
