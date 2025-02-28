@@ -3,9 +3,11 @@ DESCRIPTION = "Weather forecast for the upcoming 10 days"
 RDEPENDS:${PN} = "python3-html"
 
 inherit gitpkgv
-PV = "git${SRCPV}"
-PKGV = "git${GITPKGV}"
-PR = "r3"
+PV = "gitr${SRCPV}"
+PKGV = "gitr${GITPKGV}"
+PR = "r4"
+
+SRC_URI:openatv = "git://github.com/Belfagor2005/e2openplugin-${MODULE}.git;protocol=https;branch=master"
 
 require openplugins-setuptools3.inc
 
