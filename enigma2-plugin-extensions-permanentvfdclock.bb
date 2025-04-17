@@ -1,7 +1,7 @@
 MODULE = "PermanentVfdClock"
 DESCRIPTION = "Show clock in VFD permanently"
 
-PR="r0"
+PR = "r0"
 
 require openplugins-replace-pli.inc
 

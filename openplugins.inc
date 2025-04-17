@@ -1,6 +1,6 @@
 SRC_URI = "git://github.com/E2OpenPlugins/e2openplugin-${MODULE}.git;protocol=https;branch=python3"
 
-S="${WORKDIR}/git"
+S = "${WORKDIR}/git"
 
 SRCREV:pn-${PN} ?= "${AUTOREV}"
 

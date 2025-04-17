@@ -2,7 +2,7 @@ MODULE = "Bitrate"
 DESCRIPTION = "Bitrate viewer"
 
 require openplugins-replace-pli.inc
-PR="r1"
+PR = "r1"
 
 DEPENDS += "enigma2"
 

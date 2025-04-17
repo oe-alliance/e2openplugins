@@ -1,7 +1,7 @@
 MODULE = "AddStreamUrl"
 DESCRIPTION = "Add a stream url to your channellist"
 
-PR="r0"
+PR = "r0"
 
 require openplugins-replace-pli.inc
 
