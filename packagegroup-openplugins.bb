@@ -12,7 +12,6 @@ DEPENDS = " \
 	enigma2-plugin-extensions-bitrate \
 	enigma2-plugin-extensions-cacheflush \
 	enigma2-plugin-extensions-changerootpassword \
-	enigma2-plugin-extensions-foreca \
 	enigma2-plugin-extensions-magentamusik360 \
 	enigma2-plugin-extensions-meteoitalia2 \
 	enigma2-plugin-extensions-meteoviewer \
